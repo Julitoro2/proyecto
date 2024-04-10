@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautybooker - Productos</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ca9ec2;
+        }
+        header {
+            background-color: #010204;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #425151;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="carrito.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Beautybooker</h1>
+</header>
+
+<nav>
+    <a href="Proyecto.html">Inicio</a>
+    <a href="Servicios.html">Servicios</a>
+    <a href="Contacto.html">Contacto</a>
+</nav>
+
+<section id="productos">
+    <h2>Shampoos</h2>
+    <div class="product-list">
+        <!-- Aquí se generan dinámicamente los productos -->
+        
+        <div class="product">
+            <img src="Crema1.jpg" alt="Crema nutratopic">
+            <h3>nutratopic</h3>
+            <p>Precio: $10</p>
+            <button onclick="addToCart(1, 'nutratopic', 10, 'Crema1.jpg')">Agregar al carrito</button>
+        </div>
+        
+        <div class="product">
+            <img src="Crema2.jpeg" alt="Loreal">
+            <h3>Loreal</h3>
+            <p>Precio: $5</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <!-- Añade más productos de jabones aquí -->
+
+        <!-- Sección de Perfumes -->
+        <div class="product">
+            <img src="Crema3.jpg" alt="bliss">
+            <h3>bliss</h3>
+            <p>Precio: $20</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <!-- Añade más productos de perfumes aquí -->
+
+        <!-- Sección de Cremas -->
+        <div class="product">
+            <img src="Crema4.jpg" alt="Radiance">
+            <h3>Radiance</h3>
+            <p>Precio: $15</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <!-- Añade más productos de cremas aquí -->
+    </div>
+</section>
+
+</body>
+</html>
