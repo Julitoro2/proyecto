@@ -4,43 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautybooker</title>
-    <style>
-        /* Estilos CSS */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ca9ec2;
-        }
-        header {
-            background-color: #010204;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: #425151;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 20px;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .destacado {
-            text-align: center;
-            margin: 20px;
-            padding: 20px;
-            background-color: #525a66;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/Style.css">
 </head>
 <body>
 
@@ -65,11 +29,37 @@
 
 <section id="productos">
     <h2>Productos</h2>
-    <li><a class="nav-link" href="shampoos.html"><span><i class="fa fa-home" aria-hidden="true" ></i> &nbsp;</span>Shampoo</a></li>
-<li><a class="nav-link" href="jabones.html"><span><i class="fa fa-file-text-o" aria-hidden="true" ></i> &nbsp;</span>Jabones</a></li>
-<li><a class="nav-link" href="perfumes.html"><span><i class="fa fa-file-text-o" aria-hidden="true" ></i> &nbsp;</span>Perfumes</a></li>
-<li><a class="nav-link" href="cremas.html"><span><i class="fa fa-file-text-o" aria-hidden="true" ></i> &nbsp;</span>cremas</a></li>
-    
+<div class="product-list">
+    <!-- Sección de Shampoo -->
+    <div class="product">
+        <img src="img/shampoo1.jpg" alt="Shampoo anticaspa">
+        <li><a class="nav-link" href="shampoos.html"><span><i class="fa fa-home" aria-hidden="true" ></i> &nbsp;</span>Shampoo</a></li>
+    </div>
+</div>
+
+<div class="product-list">
+    <!-- Sección de Shampoo -->
+    <div class="product">
+        <img src="img/Jabon1.jpg" alt="Shampoo anticaspa">
+        <li><a class="nav-link" href="jabones.html"><span><i class="fa fa-home" aria-hidden="true" ></i> &nbsp;</span>JABONES</a></li>
+    </div>
+</div>
+
+<div class="product-list">
+    <!-- Sección de Shampoo -->
+    <div class="product">
+        <img src="img/Perfume1.jpg" alt="Shampoo anticaspa">
+        <li><a class="nav-link" href="perfumes.html"><span><i class="fa fa-home" aria-hidden="true" ></i> &nbsp;</span>PERFUMES</a></li>
+    </div>
+</div>
+
+<div class="product-list">
+    <!-- Sección de Shampoo -->
+    <div class="product">
+        <img src="img/Crema1.jpg">
+        <li><a class="nav-link" href="cremas.html"><span><i class="fa fa-home" aria-hidden="true" ></i> &nbsp;</span>CREMAS</a></li>
+    </div>
+</div>
 
 </body>
 </html>

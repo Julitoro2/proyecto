@@ -1,0 +1,116 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ca9ec2;
+}
+header {
+    background-color: #010204;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: #425151;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/*PROYECTO*/
+.destacado {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #525a66;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/*SERVICIOS*/
+.services {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 80%;
+}
+.services h2 {
+    margin-bottom: 20px;
+}
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+.services li {
+    margin-bottom: 10px;
+}
+.services button {
+    background-color: #010204;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.services button:hover {
+    background-color: #333;
+}
+
+/*CONTACTO*/
+.contact-info {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 80%;
+}
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/*PRODUCTOS*/
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.product {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.product img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+a{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
